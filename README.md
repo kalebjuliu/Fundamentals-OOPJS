@@ -63,6 +63,8 @@ const john = new Customer('John', 'Doe', '11-13-1980');
 
 ## Constructor
 
+``` javascript
+
 // Person constructor
  function Person(firstName, lastName, dob) {
    this.firstName = firstName;
@@ -111,7 +113,11 @@ const john = new Customer('John', 'Doe', '11-13-1980');
 // console.log(mary.hasOwnProperty('firstName'));
 // console.log(mary.hasOwnProperty('getFullName'));
 
+```
+
 ## Prototypal Inheritance
+
+``` javascript 
 
 function Person(firstName,lastName){
    this.firstName = firstName;   
@@ -148,3 +154,5 @@ function Person(firstName,lastName){
  }
 
  console.log(customer1.greeting());
+ 
+ ```
