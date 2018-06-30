@@ -44,9 +44,6 @@ class Person {
     this.lastName = lastName;
     this.birthday = new Date(dob);
   }
-  greeting(){
-    return `Hello there ${this.firstName} ${this.lastName}`
-  }
   calculateAge(){
     const diff = new Date(now) - this.birthday.getTime();
     const ageDate = new Date(diff);
